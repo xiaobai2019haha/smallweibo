@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_splash"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#eeffffff"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/button_skip"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="5dp"
+        android:textColor="#8f8f8f"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/bu_back"
+        android:text="跳过"
+        android:textSize="14sp"
+        android:layout_width="60dp"
+        android:layout_height="26dp" />
+    <TextView
+        android:textColor="#636363"
+        android:textSize="16sp"
+        android:layout_centerInParent="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="我不喜欢这世界\n我只喜欢你"
+        android:lineSpacingExtra="6dp"
+        android:gravity="center"/>
+
+</RelativeLayout>
